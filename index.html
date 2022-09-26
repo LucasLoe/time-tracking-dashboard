@@ -18,144 +18,106 @@
 <body>
 
   <div class="parent">
-    <div class="div1 grid-item">
-      
+    <div class="div1 grid-item-profile">
+      <div id="profile-top">
+        <img src="/images/image-jeremy.png">
+        <div>
+          <span>Report for</span>
+          <p> Jeremy <br class="br-class"> Robson</p>
+        </div> 
+      </div>
+      <div id="profile-bottom">
+        <a tabindex="0" onclick="renderData('daily')">Daily</a>
+        <a tabindex="0" onclick="renderData('weekly')">Weekly</a>
+        <a tabindex="0" onclick="renderData('monthly')">Monthly</a>
+      </div>
     </div>
     <div class="div2 grid-item">
+      <img class="item-cat-image" src="/images/icon-work.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Work </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="work-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="work-timeframe-recap">Last</span><span id="work-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
     <div class="div3 grid-item">
+      <img class="item-cat-image" src="/images/icon-play.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Play </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="play-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="play-timeframe-recap">Last</span><span id="play-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
     <div class="div4 grid-item">
+      <img class="item-cat-image" src="/images/icon-study.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Study </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="study-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="study-timeframe-recap">Last</span><span id="study-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
     <div class="div5 grid-item">
+      <img class="item-cat-image" src="/images/icon-exercise.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Exercise </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="exercise-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="exercise-timeframe-recap">Last</span><span id="exercise-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
     <div class="div6 grid-item">
+      <img class="item-cat-image" src="/images/icon-social.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Social </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="social-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="social-timeframe-recap">Last</span><span id="social-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
     <div class="div7 grid-item">
+      <img class="item-cat-image" src="/images/icon-self-care.svg">
       <div class="item-overlay">
         <div class="item-top">
           <h3> Self-Care </h3>
           <img class="three-dots-img" src="/images/icon-ellipsis.svg">
         </div>
         <div class="item-bottom">
-          <p class="time-display"><span id="x-time">x</span><span> hrs</span></p>
-          <p class="time-recap"><span id="x-time-recap">Last</span><span> - hrs</span></p>
+          <p class="time-display"><span id="self care-time">x</span><span>hrs</span></p>
+          <p class="time-recap"><span id="self care-timeframe-recap">Last</span><span id="self care-time-recap"> - hrs</span></p>
         </div>
       </div>
     </div>
   </div> 
   
-  
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
   <div class="attribution">
+
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <br>
+    Coded by <a href="#">Lucas Löser</a>.
+
   </div>
 
   <script src="stuff.js" defer></script>
